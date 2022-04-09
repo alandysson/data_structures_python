@@ -18,7 +18,7 @@ verify = 0
 operacao = UtilsVeiculo()
 while verify != 4:
   menu()
-  verify = int(input(":"))
+  verify = int(input(": "))
   print()
   if verify == 1:
     adiciona = operacao.cadastrarVeiculo()
