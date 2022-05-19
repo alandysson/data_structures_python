@@ -1,0 +1,2 @@
+class PilhaVazia(Exception):
+    pass

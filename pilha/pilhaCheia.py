@@ -1,0 +1,2 @@
+class PilhaCheia(Exception):
+    pass
