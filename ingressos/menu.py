@@ -16,9 +16,11 @@ class Menu:
         elif menu == 2:
             senha = int(input("Senha do aluno: "))
             self.buscar(senha)
+        else:
+            print("Opção inválida!")
 
     def criar(self):
-        self._nome = input('Nome do aluno completo: ')
+        self._nome = input('Nome do aluno completo: ').upper()
         self._matricula = int(input('Matricula: '))
         auditorio.put(self._matricula, self._nome)
 
